@@ -6,7 +6,8 @@ def getRandomString(length): #Letters and numbers
 
 def getRandomText(length): #Chars only
     return "".join(random.choice(string.ascii_lowercase) for i in range(length))
-def dripplay: ('dripplay')
+def dripplay
+Dripplay=('dripplay')
 def generate():
     nick = input('[username]-')
     passw = ('shivanggupta')
