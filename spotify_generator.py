@@ -8,9 +8,9 @@ def getRandomText(length): #Chars only
     return "".join(random.choice(string.ascii_lowercase) for i in range(length))
 
 def generate():
-    nick = getRandomText(8)
-    passw = getRandomString(12)
-    email = nick+"@"+getRandomText(5)+".com"
+    nick = input('[username]-')
+    passw = ('shivanggupta')
+    email = nick+"@"+dripplay+".tk"
 
     headers={"Accept-Encoding": "gzip",
              "Accept-Language": "en-US",
