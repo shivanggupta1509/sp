@@ -9,10 +9,9 @@ def getRandomText(length): #Chars only
 
 
 def generate():
-dripplay=('dripplay')
     nick = input('[username]-')
     passw = ('shivanggupta')
-    email = nick+"@"+dripplay+".tk"
+    email = nick+"@dripplay.tk"
 
     headers={"Accept-Encoding": "gzip",
              "Accept-Language": "en-US",
