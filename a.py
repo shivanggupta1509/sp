@@ -57,7 +57,7 @@ if __name__ == "__main__":
     N = args.number if args.number else 1
     file = open(args.output, "a") if args.output else sys.stdout
                              
-    print("
+    print("""
 
         .d8888b.                    888    d8b  .d888                                    
 d88P  Y88b                   888    Y8P d88P"                                     
@@ -102,7 +102,7 @@ o.  )88b  888   888   888     `888'     .o8"'88b    888   888  `88bod8P'
                                                                "Y88888P'  
                                                                                  
                     
-Generating accounts in the following format:", file=sys.stdout)
+Generating accounts in the following format:""", file=sys.stdout)
     print("NICKNAME:USERNAME:EMAIL:PASSWORD\n", file=sys.stdout)
     for i in range(N):
         result = generate()
