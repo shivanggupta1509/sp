@@ -40,8 +40,8 @@ def generate():
 
     if r.status_code==200:
         if r.json()['status']==1:
-            return (True, "[#]email="+email)
-return (True, "[#]password-"+passw)
+            return (True, "[#]email="+email+"         [#]password-"+passw)
+
         else:
             #Details available in r.json()["errors"]
             #print(r.json()["errors"])
