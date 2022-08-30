@@ -19,8 +19,8 @@ def generate():
              "Connection": "Keep-Alive",
              "Content-Type": "application/x-www-form-urlencoded",
              "Host": "spclient.wg.spotify.com",
-             "User-Agent": "Spotify/8.6.72 Android/29 (SM-N976N)",
-             "Spotify-App-Version": "8.6.72",
+             "User-Agent": "Spotify/8.7.54 Android/29 (SM-N976N)",
+             "Spotify-App-Version": "8.7.54",
              "X-Client-Id": getRandomString(32)}
     
     payload = {"creation_point": "client_mobile",
